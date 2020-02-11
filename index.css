@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 1%;
+  }
+  
+  body {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: lowercase;
+    color: white;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/b16bb587711253.5df68441aefd2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .top909 {
+    width: 30%;
+  }
+  
+  .header li {
+    display: inline-block;
+    margin: 1em;
+    list-style: none;
+    font-size: 1.3em;
+  }
+  
+  .startQuiz,
+  .box {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(29, 28, 28);
+    width: 30%;
+    border-radius: 3px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    cursor: pointer;
+  }
+  
+  .answerOption {
+    margin-top: 0.5em;
+  }
+  
+  .button {
+    margin-left: auto;
+    margin-right: auto;
+    height: 1em;
+    width: 3em;
+    cursor: pointer;
+    font-family: 'ubuntu', sans-serif;
+    text-transform: lowercase;
+    border: 0.1em red solid;
+    background-color: red;
+    color: black;
+    border-radius: 12px;                                                                   
+  }
+  
+  .button:hover,
+  .button:active {
+    /*background-color: rgb(29, 28, 28);
+    color: red;*/
+    border: 0px;
+    /*box-shadow: 0 5px 10px white;*/
+    transition: all .05s ease-in-out; 
+    transform: scale(1.05); 
+  }
+  
+  .final {
+    display: block;
+  }
+  
+  @media only screen and (min-width: 320px) {
+
+    .button {
+      margin-top: 0.5em;
+      font-size: 1em;
+      height: 2.5em;
+    }
+  
+    h1,
+    h3,
+    legend {
+      font-size: 1em;
+    }
+  
+    .header li {
+      font-size: 1em;
+    }
+  
+    .sizeMe {
+      font-size: 0.9em;
+      margin: 0.1em;
+    }
+  }
+  
+  @media only screen and (min-width: 550px) {
+  
+    .button {
+      margin-top: 1em;
+      font-size: 1em;
+      width: 10em;
+      height: 2.5em;
+    }
+  
+    h1,
+    h3,
+    legend {
+      font-size: 1em;
+    }
+  
+    .sizeMe {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media only screen and (min-width: 800px) {  
+
+    .header li {
+      margin: 1em;
+      font-size: 1.3em;
+    }
+  
+    h1,
+    h3,
+    legend {
+      font-size: 1.3em;
+    }
+  
+    .sizeMe {
+      font-size: 1em;
+    }
+  
+    .button {
+      margin-top: 1em;
+      margin-bottom: 1em;
+      width: 12em;
+      font-size: 1.2em;
+    }
+  }
+  

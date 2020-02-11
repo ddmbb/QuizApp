@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TR-909 Quiz</title>
+  <meta name="description" content="A quiz app about the classic drum.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap">
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body>
+  <main role="main" class="container">
+    <header role="banner" class="header">
+      <section>
+        <a href="index.html">
+          <img class="top909" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/0cefd187711253.5df14d9820e9f.jpg" alt="909" />
+        </a>
+      </section>
+      <section>
+        <ul>
+          <li class="sizeMe">Question:
+            <span class="questionNumber">0</span>/10</li>
+          <li class="sizeMe">Score:
+            <span class="score">0</span>
+          </li>
+        </ul>
+      </section>
+    </header>
+    <section role="region" class="region">
+      <section class="startQuiz box">
+        <h1>How much do you know about the Roland TR-909?</h1>
+        <button type="button" class="startButton button grow">Start</button>
+      </section>
+        <section class="questionBox box altBox"></section>
+        <section class="response box altBox"></section>
+        <section class="final box altBox"></section>
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
